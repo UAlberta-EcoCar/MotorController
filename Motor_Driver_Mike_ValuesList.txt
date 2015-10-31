@@ -1,0 +1,44 @@
+Partlist exported from C:/Users/Michael/Documents/GitHub/MotorController/Motor_Driver_Mike.sch at 2015-10-31 11:45:34 AM
+
+Qty Value           Device                 Package          Parts                                  Description                                           MF    MPN        OC_FARNELL OC_NEWARK
+1   0R              R-US_R0603             R0603            R25                                    RESISTOR, American symbol                                                                  
+4   100R            R-US_R0603             R0603            R10, R11, R12, R13                     RESISTOR, American symbol                                                                  
+1   100nF           CAP0805                0805             C10                                    Capacitor                                                                                  
+2   100uF           CAP_POL3528-KIT        EIA3528-KIT      C9, C26                                Capacitor Polarized                                                                        
+1   10K             R-US_M0805             M0805            R32                                    RESISTOR, American symbol                                                                  
+5   10K             R-US_R0603             R0603            R14, R15, R16, R18, R23                RESISTOR, American symbol                                                                  
+8   10u,50V         CAP1206                1206             C11, C12, C13, C14, C19, C20, C21, C23 Capacitor                                                                                  
+1   120pF           C-USC0603              C0603            C7                                     CAPACITOR, American symbol                                                                 
+1   15K             R-US_R0603             R0603            R20                                    RESISTOR, American symbol                                                                  
+2   15u,100V        C-EUC2220K             C2220K           C22, C24                               CAPACITOR, European symbol                                                                 
+1   18K             R-US_R0603             R0603            R24                                    RESISTOR, American symbol                                                                  
+5   1CONN_SOLDER    1CONN_SOLDER           1CONN_PAD        U$12, U$13, U$14, U$15, U$16                                                                                                      
+1   1M              R-US_R0603             R0603            R19                                    RESISTOR, American symbol                                                                  
+3   2.2K            R-US_R0805             R0805            R27, R29, R31                          RESISTOR, American symbol                                                                  
+2   2.2n            C-USC0603              C0603            C4, C5                                 CAPACITOR, American symbol                                                                 
+6   2.2u            C-USC0805              C0805            C15, C16, C17, C18, C25, C27           CAPACITOR, American symbol                                                                 
+1   22-23-2021      22-23-2021             22-23-2021       TEMP                                   .100" (2.54mm) Center Header - 2 Pin                  MOLEX 22-23-2021 1462926    25C3832  
+2   22-23-2041      22-23-2041             22-23-2041       CTRL, SENS                             .100" (2.54mm) Center Header - 4 Pin                  MOLEX 22-23-2041 1462920    38C0355  
+1   22-23-2051      22-23-2051             22-23-2051       CURR                                   .100" (2.54mm) Center Header - 5 Pin                  MOLEX 22-23-2051 1462952    38C9178  
+1   22-23-2081      22-23-2081             22-23-2081       M                                      .100" (2.54mm) Center Header - 8 Pin                  MOLEX 22-23-2081 1756826    01C7592  
+1   220K            R-US_R0603             R0603            R21                                    RESISTOR, American symbol                                                                  
+3   220n            C-USC0805              C0805            C1, C2, C3                             CAPACITOR, American symbol                                                                 
+1   22nF            C-USC0603              C0603            C8                                     CAPACITOR, American symbol                                                                 
+1   22uH            SDR0805                SDR0805          L1                                     POWER INDUCTOR                                                                             
+1   270K            R-US_R0603             R0603            R17                                    RESISTOR, American symbol                                                                  
+2   2PT_GND_TIE     2PT_GND_TIE            2PT_GND_TIE      PT1, PT2                               Package for connecting two ground nets in one place.                                       
+1   3.3K            R-US_R0603             R0603            R22                                    RESISTOR, American symbol                                                                  
+3   39K             R-US_R0603             R0603            R7, R8, R9                             RESISTOR, American symbol                                                                  
+3   39K             R-US_R0805             R0805            R26, R28, R30                          RESISTOR, American symbol                                                                  
+6   4.7K            R-US_R0603             R0603            R1, R2, R3, R4, R5, R6                 RESISTOR, American symbol                                                                  
+1   6.8nF           C-USC0603              C0603            C6                                     CAPACITOR, American symbol                                                                 
+1   DRV8302         DRV8302                DRV8302          U$7                                    DRV8302                                                                                    
+1   GAIN            PINHD-1X3              1X03             JP4                                    PIN HEADER                                                                                 
+6   IRFS7530        IRFS7530_HEATSINK      IRF7530_HEATSINK U$1, U$2, U$3, U$4, U$5, U$6           IRFS7530 with Heatsink                                                                     
+1   M_OC            PINHD-1X3              1X03             JP3                                    PIN HEADER                                                                                 
+1   M_PWM           PINHD-1X3              1X03             JP2                                    PIN HEADER                                                                                 
+1   NCP18XH103F03RB NCP18XH103F03RB        R0603            U$11                                   NTC Thermistor                                                                             
+1   PMEG6020ER,115  DIODE[SCHOTKY]-SOD123W SOD123W          D1                                                                                                                                
+1   SMAJ5.0A        TVSSMA                 SMA-DIODE        D2                                     Transient voltage suppressor- prevents ESD on inputs.                                      
+1   TC2117          TC2117                 SOT223           U$10                                                                                                                              
+2   WSLP2726        WSLP2726               WSLP2726         U$8, U$9                               WSLP2726                                                                                   
