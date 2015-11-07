@@ -9980,6 +9980,7 @@ Source: AVX .. aphvc.pdf</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="DATABASE" value="C:\EAGLE-7.2.0\ulp\bom-ex164"/>
 </attributes>
 <variantdefs>
 </variantdefs>
