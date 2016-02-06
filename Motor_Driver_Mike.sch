@@ -10135,7 +10135,8 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="124.46" y1="-17.78" x2="-5.08" y2="-17.78" width="0.1524" layer="97"/>
 <wire x1="-5.08" y1="-17.78" x2="-5.08" y2="60.96" width="0.1524" layer="97"/>
 <text x="58.42" y="63.5" size="1.778" layer="97">MOSFET</text>
-<wire x1="238.76" y1="-50.8" x2="238.76" y2="-86.36" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="238.76" y1="-50.8" x2="238.76" y2="-73.66" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="238.76" y1="-73.66" x2="238.76" y2="-86.36" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="238.76" y1="-86.36" x2="314.96" y2="-86.36" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="314.96" y1="-86.36" x2="314.96" y2="-25.4" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="314.96" y1="-25.4" x2="276.86" y2="-25.4" width="0.1524" layer="97" style="shortdash"/>
@@ -10160,8 +10161,8 @@ Source: AVX .. aphvc.pdf</description>
 <text x="170.18" y="-40.64" size="0.508" layer="97">TPSB107K006R0400</text>
 <text x="147.32" y="-58.42" size="0.254" layer="97" rot="R90">A TVS diode, or transient voltage suppression diode, is an electrical device which is designed to divert or shunt voltage spikes from a circuit in order to protect that circuit.</text>
 <wire x1="218.44" y1="-10.16" x2="134.62" y2="-10.16" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="134.62" y1="-10.16" x2="134.62" y2="-71.12" width="0.1524" layer="97" style="shortdash"/>
-<wire x1="134.62" y1="-71.12" x2="236.22" y2="-71.12" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="134.62" y1="-10.16" x2="134.62" y2="-73.66" width="0.1524" layer="97" style="shortdash"/>
+<wire x1="134.62" y1="-73.66" x2="238.76" y2="-73.66" width="0.1524" layer="97" style="shortdash"/>
 <text x="139.7" y="-68.58" size="1.27" layer="97">BUCK REGULATOR CIRCUIT</text>
 <text x="190.5" y="33.02" size="1.016" layer="97">Control Connector</text>
 <text x="190.5" y="6.35" size="0.254" layer="97">Don't mount R18, because internal current limit of DRV8302 doesn't work with this config for some reason</text>
@@ -10272,9 +10273,9 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="R23" gate="G$1" x="215.9" y="-38.1"/>
 <instance part="R24" gate="G$1" x="160.02" y="-35.56" rot="R90"/>
 <instance part="C6" gate="G$1" x="213.36" y="-53.34"/>
-<instance part="C7" gate="G$1" x="205.74" y="-58.42"/>
+<instance part="C7" gate="G$1" x="205.74" y="-60.96"/>
 <instance part="C8" gate="G$1" x="223.52" y="-60.96" rot="R90"/>
-<instance part="SUPPLY9" gate="G$1" x="205.74" y="-66.04"/>
+<instance part="SUPPLY9" gate="G$1" x="205.74" y="-68.58"/>
 <instance part="P+6" gate="1" x="205.74" y="-38.1" rot="R90"/>
 <instance part="R25" gate="G$1" x="205.74" y="-35.56"/>
 <instance part="SUPPLY10" gate="G$1" x="198.12" y="-35.56" rot="R270"/>
@@ -10994,13 +10995,13 @@ Source: AVX .. aphvc.pdf</description>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="-58.42" x2="213.36" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="-58.42" x2="213.36" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="213.36" y1="-63.5" x2="205.74" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="-66.04" x2="205.74" y2="-66.04" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="1"/>
-<wire x1="198.12" y1="-58.42" x2="198.12" y2="-63.5" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="-63.5" x2="205.74" y2="-63.5" width="0.1524" layer="91"/>
-<junction x="205.74" y="-63.5"/>
+<wire x1="198.12" y1="-58.42" x2="198.12" y2="-66.04" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="-66.04" x2="205.74" y2="-66.04" width="0.1524" layer="91"/>
+<junction x="205.74" y="-66.04"/>
 <pinref part="SUPPLY9" gate="G$1" pin="DGND"/>
 </segment>
 <segment>
@@ -11207,6 +11208,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="R20" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="-58.42" x2="205.74" y2="-55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
