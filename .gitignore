@@ -66,6 +66,8 @@ Temporary Items
 *.s#?
 *.b#?
 *.l#?
+*.b##
+*.b#1
 
 # Eagle project file
 # It contains a serial number and references to the file structure
